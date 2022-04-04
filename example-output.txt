@@ -1,0 +1,57 @@
+Expression: x + 1
+Solve using:
+  x = 4
+Solution: 5
+-------------
+Expression: 2 - (y + (3 * x))
+Solve using:
+  x = 4
+  y = 5
+Solution: -15
+-------------
+Expression: (5 * a) / b
+Solve using:
+  a = 8
+  b = 10
+Solution: 4.0
+-------------
+Expression: 3 * (x + 1)
+Solve using:
+  x = 4
+Solution: 15
+-------------
+Expression: ((2 * (x + 1)) + (5 * y)) + z
+Switched using Associative Property: z + ((2 * (x + 1)) + (5 * y))
+-------------
+Expression (alternate): (2 * (x + 1)) + ((5 * y) + z)
+Switched using Associative Property: ((5 * y) + z) + (2 * (x + 1))
+-------------
+Expression: ((2 * (x + 1)) + (5 * y)) + z
+Solve using:
+  x = 4
+  y = 5
+  z = 7
+Solution: 42
+-------------
+Solution (switched) = 42
+Solution (alt) = 42
+Solution (alt switched) = 42
+-------------
+Expression: ((2 * (x + 1)) + (5 * y)) + z
+Solve using:
+  x = 10
+  y = 12
+  z = 3
+Solution: 85
+-------------
+Expression: (((c + d) - e) * 2) - ((f * e) / (2 * g))
+Solve using:
+  c = 3
+  d = 180
+  e = 40
+  f = 42
+  g = 15
+Solution: 230.0
+-------------
+Switched using Associative Property: ((-1) * ((f * e) / (2 * g))) + (((c + d) - e) * 2)
+Solved using switched: 230.0
