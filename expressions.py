@@ -86,7 +86,7 @@ class Expression:
 
     def switch(self) -> 'Expression':
         '''
-        Use the Associate Property to switch left & right values
+        Use the Commutative Property to switch left & right values
         correctly so that the Expression's value remains equal
 
         Returns new Expression

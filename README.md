@@ -5,7 +5,7 @@ This project shows how to solve simple algebraic expressions using Python.
 
 The Variable class defined in [variables.py](./variables.py) contains methods for defining variables such as `x = 5` and performing addition, subtraction, multiplication, and division on their values.
 
-The Expression class defined in [expressions.py](./expressions.py) contains methods for defining algebraic expressions such as `2x + 8`, solving them using the Variables' values, and switching the order of terms using the Associative Property.
+The Expression class defined in [expressions.py](./expressions.py) contains methods for defining algebraic expressions such as `2x + 8`, solving them using the Variables' values, and switching the order of terms using the Commutative Property.
 
 An Expression is an operation on two terms. A term can be a number, a Variable, or another Expression. An operation can be addition (`+`), subtraction (`-`), multiplication (`*`), or division (`/`).
 
@@ -30,7 +30,7 @@ x.value = 10
 print(exp.solve()) # should print: 28
 ```
 
-To switch the order of terms using the Associative Property, use the `Expression.switch()` method.
+To switch the order of terms using the Commutative Property, use the `Expression.switch()` method.
 
 ```python
 switched = exp.switch()
@@ -77,7 +77,7 @@ The instructions in this README will use conda.
 
 
 ## How to Run the Example File
-This project includes [example.py](./example.py), an example file showing how to form simple Expressions, solve them, and use the Associative Property to switch term order.
+This project includes [example.py](./example.py), an example file showing how to form simple Expressions, solve them, and use the Commutative Property to switch term order.
 
 1. Create a new virtual environment using Python 3.10:
     ```bash

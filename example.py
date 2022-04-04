@@ -46,7 +46,7 @@ if __name__ == '__main__':
 
     # ===============================
     # Examples of Solving Expressions
-    #   & Using the Associative Property
+    #   & Using the Commutative Property
     # ===============================
 
     # 2(x + 1) + 5y + z
@@ -59,10 +59,10 @@ if __name__ == '__main__':
     exp_3_alt_switched = exp_3_alt.switch()
 
     print(f'Expression: {exp_3}')
-    print(f'Switched using Associative Property: {exp_3_switched}')
+    print(f'Switched using Commutative Property: {exp_3_switched}')
     print('-------------')
     print(f'Expression (alternate): {exp_3_alt}')
-    print(f'Switched using Associative Property: {exp_3_alt_switched}')
+    print(f'Switched using Commutative Property: {exp_3_alt_switched}')
     print('-------------')
     show_solve(exp_3, x, y, z)
     print(f'Solution (switched) = {exp_3.solve()}')
@@ -87,5 +87,5 @@ if __name__ == '__main__':
     show_solve(exp, c, d, e, f, g)
 
     exp_switched = exp.switch()
-    print(f'Switched using Associative Property: {exp_switched}')
+    print(f'Switched using Commutative Property: {exp_switched}')
     print(f'Solved using switched: {exp_switched.solve()}')

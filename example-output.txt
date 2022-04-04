@@ -21,10 +21,10 @@ Solve using:
 Solution: 15
 -------------
 Expression: ((2 * (x + 1)) + (5 * y)) + z
-Switched using Associative Property: z + ((2 * (x + 1)) + (5 * y))
+Switched using Commutative Property: z + ((2 * (x + 1)) + (5 * y))
 -------------
 Expression (alternate): (2 * (x + 1)) + ((5 * y) + z)
-Switched using Associative Property: ((5 * y) + z) + (2 * (x + 1))
+Switched using Commutative Property: ((5 * y) + z) + (2 * (x + 1))
 -------------
 Expression: ((2 * (x + 1)) + (5 * y)) + z
 Solve using:
@@ -53,5 +53,5 @@ Solve using:
   g = 15
 Solution: 230.0
 -------------
-Switched using Associative Property: ((-1) * ((f * e) / (2 * g))) + (((c + d) - e) * 2)
+Switched using Commutative Property: ((-1) * ((f * e) / (2 * g))) + (((c + d) - e) * 2)
 Solved using switched: 230.0
